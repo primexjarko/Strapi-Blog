@@ -1,0 +1,23 @@
+$marginTop: (30)
+
+@each $mt in $marginTop
+  .mt-#{$mt}
+    margin-top: #{$mt}px
+
+$marginBottom: (10,20,30,50)
+
+@each $mb in $marginBottom
+  .mb-#{$mb}
+    margin-bottom: #{$mb}px
+
+$paddingTop: (80)
+
+@each $pt in $paddingTop
+  .pt-#{$pt}
+    padding-top: #{$pt}px
+
+$paddingBottom: (80)
+
+@each $pb in $paddingBottom
+  .pb-#{$pb}
+    padding-bottom: #{$pb}px
